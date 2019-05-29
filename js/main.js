@@ -3,9 +3,9 @@
 new Vue({
     el: '#exercise',
     data: {
-      
       highlight: false,
-      shrink: false
+      shrink: false,
+      ball:'ball'
     },
     methods: {
       startEffect: function() {
