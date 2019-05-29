@@ -5,7 +5,8 @@ new Vue({
     data: {
       highlight: false,
       shrink: false,
-      ball:'ball'
+      ball:'circle',
+      shape: 'enter a shape'
     },
     methods: {
       startEffect: function() {

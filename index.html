@@ -18,8 +18,8 @@
   <div :class="[ball, {blue: true}]"></div>
   <!-- 3) Let the user enter a class (create some example classes) and attach it -->
   <div>
-    <input type="text">
-    <div></div>
+      <input type="text" v-model="shape">
+      <div :class="shape"></div>
   </div>
   <!-- 4) Let the user enter a class and enter true/ false for another class (create some example classes) and attach the classes -->
   <div>
