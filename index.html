@@ -2,8 +2,7 @@
 <head>
   <meta charset="utf-8">
   <title>Exercice 4 Vuejs</title>
-  <script src="https://unpkg.com/vue/dist/vue.js"></script>
-  <script src="js/main.js"></script>
+  
   <link rel="stylesheet" type="text/css" href="css/index.css" />
 
 
@@ -13,7 +12,7 @@
      <!-- 1) Start the Effect with the Button. The Effect should alternate the "highlight" or "shrink" class on each new setInterval tick (attach respective class to the div with id "effect" below) -->
   <div>
     <button @click="startEffect">Start Effect</button>
-    <div id="effect"></div>
+    <div id="effect" :class="{highlight, shrink}"></div>
   </div>
   <!-- 2) Create a couple of CSS classes and attach them via the array syntax -->
   <div>I got no class :(</div>
@@ -39,5 +38,8 @@
     <div></div>
   </div>
 </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+  <script src="js/main.js"></script>
+  
 </body>
 </html>
