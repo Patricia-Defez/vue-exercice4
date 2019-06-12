@@ -6,7 +6,9 @@ new Vue({
       highlight: false,
       shrink: false,
       ball:'circle',
-      shape: 'enter a shape'
+      shape: 'enter a shape',
+      shape2: 'enter another shape',
+      color: 'true or false'
     },
     methods: {
       startEffect: function() {
