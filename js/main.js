@@ -8,7 +8,8 @@ new Vue({
       ball:'circle',
       shape: 'enter a shape',
       shape2: 'enter another shape',
-      color: 'true or false'
+      color: 'true or false',
+      color2: 'enter a color'
     },
     methods: {
       startEffect: function() {
