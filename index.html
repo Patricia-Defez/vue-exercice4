@@ -34,8 +34,8 @@
   </div>
   <!-- 6) Create a simple progress bar with setInterval and style bindings. Start it by hitting the below button. -->
   <div>
-    <button>Start Progress</button>
-    <div></div>
+    <button @click="startProgres">Start Progress</button>
+    <div class="bar":style="{'width': progress + 'px'}"></div>
   </div>
 </div>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>

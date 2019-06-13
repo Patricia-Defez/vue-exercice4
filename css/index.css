@@ -34,3 +34,9 @@
   .red {
     background-color: red;
   }
+
+  .bar {
+    height: 5px;
+    width: 4px;
+    background-color: blue;
+  }

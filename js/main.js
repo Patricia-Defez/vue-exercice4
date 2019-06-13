@@ -9,7 +9,8 @@ new Vue({
       shape: 'enter a shape',
       shape2: 'enter another shape',
       color: 'true or false',
-      color2: 'enter a color'
+      color2: 'enter a color',
+      progress: 4
     },
     methods: {
       startEffect: function() {
@@ -17,9 +18,15 @@ new Vue({
         setInterval(function(){
           vm.highlight= !vm.highlight;
           vm.shrink= !vm.highlight;
-        }, 300)
-           
-      }
+        }, 300)        
+      },
+      startProgres: function () {
+        var vm = this;
+        setInterval(function(){
+        vm.progress += 2;
+        },300) 
+        }     
     }
+
   });
   
